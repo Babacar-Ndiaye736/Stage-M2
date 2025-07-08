@@ -52,3 +52,23 @@ sage -python Extension_cyclique -d (ici on met le degré choisi ex:12)
 
  ## code  pour les extensions ni cycliques ni galoisiennes 
 
+C'est dans le fichier [`Extension_with_automorphismes.py`](Extension_with_automorphisme.py)
+
+
+Ce code énumère tous les polynômes d’un degré donné, dont les coefficients appartiennent à l’ensemble {0, 1, -1}. Pour chacun de ces polynômes, je determine l'ensemble K des automorphismes générés. Un polynôme est candidat s’il est irréductible modulo un certain premier p qui ne divise pas le discriminant du polynôme et que le cardinal de l'ensemble K est strictement supérieur à 1 (c'est-à-dire K contient au moins un automorphisme non trivial). Le code détermine l'ensemble des  polynômes définissant des extensions ni cycliques ni galoisiennes.
+
+#### Lancer le code sur allmight
+
+Pour lancer le code sur allmight on procède comme suit:
+
+```bash
+
+ssh allmight
+cd stage-m2/sage/
+sage -python Extension_with_automorphismes -d (ici on met le degré choisi ex:12)
+
+```
+
+#### Commentaire des resultats de sortie
+
+Les resultats obtenus contiennent plein de  polynômes palindromes définissant un seul automorphisme d'ordre 2 et d'autres polynomes définissant un seul automorphisme d'ordre 2. 

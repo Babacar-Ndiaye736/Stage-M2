@@ -14,7 +14,7 @@ Pour lancer le code sur allmight on procède comme suit:
 
 ssh allmight
 cd stage-m2/sage/
-sage -python Extension_galoisienne -d (ici on met le degré choisi ex:12)
+python Extension_galoisienne.py -d (ici on met le degré choisi ex:12)
 
 ```
 
@@ -40,7 +40,7 @@ Pour lancer le code sur allmight on procède comme suit:
 
 ssh allmight
 cd stage-m2/sage/
-sage -python Extension_cyclique -d (ici on met le degré choisi ex:12)
+python Extension_cyclique.py -d (ici on met le degré choisi ex:12)
 
 ```
 
@@ -65,7 +65,7 @@ Pour lancer le code sur allmight on procède comme suit:
 
 ssh allmight
 cd stage-m2/sage/
-sage -python Extension_with_automorphismes -d (ici on met le degré choisi ex:12)
+python Extension_with_automorphismes.py -d (ici on met le degré choisi ex:12)
 
 ```
 

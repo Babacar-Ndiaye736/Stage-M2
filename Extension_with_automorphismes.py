@@ -173,4 +173,5 @@ if __name__ == "__main__":
     else:
         d=6
     print("d={}".format(d))
-    get_list_irr_poly_automorphisme(deg=d, max_coeff=1, monic=True, output_file="List_polys_monic_with_automorphism_deg"+str(d)+".py", start_counter=None, stop_counter=None, verbose=False, only_attained_max_coeff=False)
+    max_coeff=6
+    get_list_irr_poly_automorphisme(deg=d, max_coeff=max_coeff, monic=True, output_file="List_polys_monic_with_automorphism_deg"+str(d)+"_coeff"+str(max_coeff)+".py", start_counter=None, stop_counter=None, verbose=False, only_attained_max_coeff=False)

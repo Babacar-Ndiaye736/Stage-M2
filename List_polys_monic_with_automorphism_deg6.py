@@ -1,0 +1,15 @@
+auto_tab_h_6_1 = [ \
+ [-1, 0, 0, 1, 0,0,1], # Polynôme trouvé : y^6+y^3-1, Automorphismes d'ordre : [1, 2]
+ [-1, 0, 1, 1,-1,0,1], # Polynôme trouvé : y^6-y^4+y^3+y^2-1, Automorphismes d'ordre : [1, 2]
+ [-1, 1, 0,-1, 0,1,1], # Polynôme trouvé : y^6+y^5-y^3+y-1, Automorphismes d'ordre : [1, 2]
+ [-1, 1, 0, 0, 0,1,1], # Polynôme trouvé : y^6+y^5+y-1, Automorphismes d'ordre : [1, 2]
+ [-1, 1, 1, 1,-1,1,1], # Polynôme trouvé : y^6+y^5-y^4+y^3+y^2+y-1, Automorphismes d'ordre : [1, 2]
+ [ 1, 0,-1, 0, 0,0,1], # Polynôme trouvé : y^6-y^2+1, Automorphismes d'ordre : [1, 2]
+ [ 1, 0,-1, 0, 1,0,1], # Polynôme trouvé : y^6+y^4-y^2+1, Automorphismes d'ordre : [1, 2]
+ [ 1, 0, 0, 1, 0,0,1], # Polynôme trouvé : y^6+y^3+1, Automorphismes d'ordre : [1, 6, 3, 3, 2, 6]
+ [ 1, 0, 1, 0, 0,0,1], # Polynôme trouvé : y^6+y^2+1, Automorphismes d'ordre : [1, 2]
+ [ 1, 1, 0, 1, 0,1,1], # Polynôme trouvé : y^6+y^5+y^3+y+1, Automorphismes d'ordre : [1, 2]
+ [ 1, 1, 1,-1, 1,1,1], # Polynôme trouvé : y^6+y^5+y^4-y^3+y^2+y+1, Automorphismes d'ordre : [1, 2]
+ [ 1, 1, 1, 1, 1,1,1], # Polynôme trouvé : y^6+y^5+y^4+y^3+y^2+y+1, Automorphismes d'ordre : [1, 3, 6, 3, 2, 6]
+]
+
